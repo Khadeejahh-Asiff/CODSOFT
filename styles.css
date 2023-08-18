@@ -1,0 +1,173 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body 
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 2.2;
+  color: black;
+}
+
+header 
+{
+  text-align: center;
+  background-color: steelblue;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 
+{
+  margin-bottom: 0.1rem;
+  font-size: 3.0rem;
+}
+
+header p 
+{
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+#About 
+{
+  padding: 0.0rem;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+#About img 
+{
+  max-width: 12%;
+  max-height: 10%;
+  max-block-size: 10%;
+  border-block: 15%;
+  margin-right: 0rem;
+  margin-top: 0rem;
+  margin-block-start: 0%;
+  margin-bottom: 0rem;
+}
+
+#About p
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  text-decoration: none;
+  text-align: justify;
+  text-align: center;
+} 
+
+#Skills 
+{
+  background-color: none;
+  padding: 1rem 0;
+}
+
+#Skills h2 {
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 2.0rem;
+}
+
+#Skills ol {
+  list-style: none;
+  display: list-item;
+  justify-content: center;
+  list-style-type: circle;
+  font-size: x-large;
+  background-color: whitesmoke;
+  text-decoration: solid;
+}
+
+#Skills li 
+{
+  margin: 0 1.1rem;
+  font-size: x-large;
+}
+
+.Project {
+  margin-bottom: 2.5rem;
+  border: 1px solid #f0f0f0;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#Project h2
+{
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 2.0rem;
+}
+
+#Project img 
+{
+  max-width: 100%;
+  image-orientation: from-image;
+  -ms-flex-item-align: center;
+  max-height: fit-content;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  border-block: 50%;
+  margin-left: 23%;
+  background-color: whitesmoke;
+}
+
+#Project h3 
+{
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+#Project p 
+{
+  margin-top: 0.5rem;
+  background-color: whitesmoke;
+  font-size: larger;
+}
+
+#Resume h2{
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 2.0rem;
+}
+
+#Resume p{
+  margin-top: 0.5rem;
+  background-color: whitesmoke;
+  font-size: x-large;
+}
+
+#Contact h2{
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 2.0rem;
+}
+
+#Contact p{
+  margin-top: 0.5rem;
+  background-color: whitesmoke;
+  font-size: x-large;
+}
+
+#footer{
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  font-size: medium;
+}
